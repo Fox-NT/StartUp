@@ -285,11 +285,6 @@ body {
 
 .header_logo {
     margin-right: 40px;
-    width: 120px;
-}
-
-.header_logo img {
-    width: 100%;
 }
 
 .nav_list {
@@ -315,7 +310,6 @@ body {
     font-size: 18px;
     display: inline-block;
     position: relative;
-    min-width: 110px;
 }
 
 .nav_item a::after {
@@ -2185,20 +2179,12 @@ body {
     .header_container > .container {
     padding: 2px 0;
     padding-top: 5px;
-    padding: 18px 0;
     padding-right: 49px;
     padding-left: 13px;
     }
-    .header_logo {
-        width: auto;
-    }
 
-    .header_logo img {
-        
-    height: 120%;
-    }
     .burger {
-        top: 28px;
+        top: 12px;
     }
     .header_contacts {
         padding-bottom: 6px;
