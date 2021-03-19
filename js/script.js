@@ -38,3 +38,14 @@ document.addEventListener('keydown', (e) => {
         hideModal();
     }
 });
+
+
+const input = document.querySelector('#social-page');
+
+if (window.innerWidth <= 800) {
+    input.placeholder = 'VK, Instagram, Телефон или Email';
+} else {
+    input.placeholder = 'Адрес страницы VK, Instagram, Телефон или Email';
+}
+
+console.log(input);
