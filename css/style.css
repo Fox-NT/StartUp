@@ -629,7 +629,7 @@ body {
 .about_descr {
     max-width: 635px;
     width: 100%;
-    line-height: 18px;
+    line-height: 19px;
     font-size: 13px;
 }
 
@@ -857,7 +857,7 @@ body {
 .feedback_text {
     font-size: 13px;
     color: #000000;
-    line-height: 18px;
+    line-height: 19px;
 }
 
 .footer_container {
