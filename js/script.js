@@ -40,7 +40,9 @@ document.addEventListener('keydown', (e) => {
 });
 
 
-const input = document.querySelector('#social-page');
+const input = document.querySelector('#social-page'),
+      burgerMenu = document.querySelector('.burger_menu'),
+      burgerBtn = document.querySelector('.burger');
 
 if (window.innerWidth <= 800) {
     input.placeholder = 'VK, Instagram, Телефон или Email';
@@ -48,4 +50,15 @@ if (window.innerWidth <= 800) {
     input.placeholder = 'Адрес страницы VK, Instagram, Телефон или Email';
 }
 
-console.log(input);
+
+if (window.innerWidth <= 1280) {
+    burgerMenu.classList.add('burger_hide');
+} else {
+    burgerMenu.classList.remove('burger_hide');
+}
+
+
+burgerBtn.addEventListener('click', () => {
+    burgerMenu.classList.toggle('burger_show');
+    document.body.classList.toggle('body_block');
+});
