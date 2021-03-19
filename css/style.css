@@ -857,6 +857,7 @@ body {
 .feedback_text {
     font-size: 13px;
     color: #000000;
+    line-height: 18px;
 }
 
 .footer_container {
