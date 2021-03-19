@@ -449,7 +449,6 @@ body {
     outline: none;
     border: none;
     padding: 13px 55px;
-
     background-color: transparent;
 }
 
@@ -1091,8 +1090,10 @@ body {
     /* justify-content: center; */
     position: relative;
     top: 4vh;
-    background: linear-gradient(98.31deg, rgba(255, 255, 255, 0.6) -12.52%, rgba(255, 255, 255, 0) 116.74%);
-    backdrop-filter: blur(30px);
+    background: url(../img/bg_modal.png);
+    /* backdrop-filter: blur(30px); */
+    background-repeat: no-repeat;
+    background-size: cover;
     
     border-radius: 40px;
     padding: 60px 58px;
@@ -1850,6 +1851,7 @@ body {
     .input_id input[type="text"] {
         width: 80%;
         padding-right: 10px;
+        color: #ffffff;
     }
 
     .header_contacts > .btn_contact:nth-last-child(1) a {
