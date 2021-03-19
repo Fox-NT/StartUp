@@ -1267,7 +1267,7 @@ body {
     color: #FFFFFF;
     letter-spacing: 0.34px;
 }
-}
+
 @media screen and (max-width: 1610px) {
     .header_container > .container {
         padding-left: 10px;
@@ -1300,6 +1300,59 @@ body {
         -webkit-transition: 0.5s all linear;
         -o-transition: 0.5s all linear;
         transition: 0.5s all linear;
+    }
+
+    .modal_wrapper {
+        padding: 26px 60px;
+    }
+
+    .modal_title {
+        margin-bottom: 23px;
+    }
+    .modal_container form > input {
+        font-size: 24px;
+    }
+
+    .modal_container form > .email > input, .modal_container form > .age > input {
+        font-size: 24px;
+    }
+    
+    .modal_container form > input, .modal_container form > .email > input, .modal_container form > .age > input {
+        padding: 8px 33px;
+        margin-bottom: 20px;
+    }
+
+    #location {
+        margin-bottom: 21px;
+    }
+
+
+    .modal_container form > .email > input::placeholder, 
+    .modal_container form > .age > input::placeholder {
+        font-size: 24px;;
+    }
+
+    .modal_container form > input::placeholder {
+        font-size: 24px;;
+    }
+
+    .radio-btn+label::before {
+        margin-right: 8px;
+    }
+
+    .email, .age {
+    }
+
+    .check_age label {
+    }
+
+    .radio-btn+label::before {
+    }
+
+    .check_age {
+    }
+
+    .modal_submit {
     }
 
     /* .about {
@@ -1342,6 +1395,8 @@ body {
     .feedback {
         padding-left: 20px;
     }
+
+    
 
 }
 @media screen and (max-width: 1284px) {
