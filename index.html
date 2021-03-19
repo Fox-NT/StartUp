@@ -203,26 +203,33 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="modal">
+    <div class="modal modal_hide">
         <div class="modal_wrapper">
             <div class="modal_close"></div>
-            <div class="modal_title"></div>
+            <div class="modal_title">Регистрация</div>
             <div class="modal_container">
                 <form action="#">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                    <input type="text" name="full-name" id="full-name" placeholder="ФИО">
+                    <input type="text" name="socila-page" id="social-page" placeholder="Адрес страницы VK, Instagram, Телефон или Email">
+                    <input type="tel" name="phone_modal" id="phone_modal" placeholder="Номер телефона (видно только Вам)">
                     <div class="email">
-                        <input type="text">
-                        <input type="text">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="email" name="email-confirm" id="email-confirm" placeholder="Подтвердить Email">
                     </div>
                     <div class="age">
-                        <input type="text">
-                        <input type="text">
+                        <input type="text" name="sex" id="sex" placeholder="Пол">
+                        <input type="text" name="age" id="age" placeholder="Возраст">
                     </div>
+                    <input type="text" name="location" id="location" placeholder="Место жительства (Населенный пункт)">
+                    <div class="check_age">
+                        <input class="radio-btn" type="radio" name="age16" id="age16">
+                        <label for="age16">Вы действительно старше 16 лет</label>
+                    </div>
+                    <button class="modal_submit" type="submit">Зарегистрироваться</button>
                 </form>
             </div>
         </div>
-    </div> -->
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
