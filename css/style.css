@@ -451,6 +451,7 @@ body {
     border: none;
     padding: 13px 55px;
     background-color: transparent;
+    width: 80%;
 }
 
 .input_id input[type="text"]::-webkit-input-placeholder {
@@ -546,6 +547,7 @@ body {
     font-weight: normal;
     font-size: 28px;
     color: #ffffff;
+    display: flex;
 }
 
 .btn_form_id::before {
@@ -1870,12 +1872,12 @@ body {
     width: 9.8px;
 
     }
-.burger_menu {
-    width: 100%;
-}
 
 
-    
+    .burger_menu {
+        width: 100%;
+    }
+
     .input_id input[type="text"] {
         width: 80%;
         padding-right: 10px;
@@ -1914,6 +1916,7 @@ body {
 
     .form_wrapper {
         border-radius: 20px;
+        max-width: 450px;
     }
 
     .form_wrapper > .container {
