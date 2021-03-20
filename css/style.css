@@ -1330,6 +1330,7 @@ body {
 
     .modal_wrapper {
         padding: 26px 60px;
+        top: 0;
     }
 
     .modal_title {
