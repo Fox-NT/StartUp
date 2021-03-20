@@ -1085,7 +1085,7 @@ body {
 }
 
 .modal_show {
-    display: block;
+    display: flex;
 }
 
 .modal_hide {
@@ -1099,8 +1099,12 @@ body {
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    position: relative;
-    top: 4vh;
+    position: relative;    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
     background: url(../img/bg_modal.png);
     /* backdrop-filter: blur(30px); */
     background-repeat: no-repeat;
